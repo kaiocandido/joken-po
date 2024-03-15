@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./favicon.png" type="image/png">
+    <title>Jokenpô</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Jokenpô</h1>
+    </header>
+
+    <section class="big-box">
+        <button class="stone" onclick="playHuman('stone')">&#129308</button>
+        <button class="paper" onclick="playHuman('paper')">&#128075</button>
+        <button class="scissors" onclick="playHuman('scissors')">&#9996</button>
+
+        <section class="small-box">
+            <p class="pontuação" >Pontuação : <span class="people">0</span></p>
+            <p class="cpu">Máquina: <span class="machine">0</span></p>
+            <p class="empate">Empate: <span class="funcional">0</span></p>
+
+            <P class="winner"></P>
+        </section>
+
+    </section>
+
+</body>
+<script src="./script.js"></script>
+</html>
